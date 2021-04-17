@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+
+body{
+	margin:0;
+	padding: 0;
+	height: 100vh;
+}
+
+#porto-nav{
+	background-color: #232323;
+}
+
+#porto-nav .navbar-brand{
+	color: white;
+}
+
+#porto-nav .nav-link{
+	color: white;
+}
+
+#porto-nav #work-link{
+	color: #E96A3D;
+	font-weight: bold;
+}
+
+#porto-nav #work-link:hover{
+	color: white;
+}
+
+.my-porto .display-5{
+	font-family: 'Lora', serif;
+	margin-top: 2rem;
+}
+
+.my-porto .porto-box{
+	border: solid 1px black;
+	margin: 3px;
+	width: 300px
+}
+
+.my-porto .porto-img{
+	width: 300px;
+	padding: 5px;
+}
+
+.my-porto .porto-text{
+	padding: 5px;
+}
+
+.nav-link{
+	text-transform: uppercase;
+}
+
+.nav-link:hover{
+	color: #232323;
+	background-color: #E96A3D;
+}
+
+.jumbotron{
+	background-color: white;
+}
+
+.jumbotron .display-4{
+	font-family: 'Lora', serif;
+}
+
+.jumbotron .btn-success{
+	color: white;
+}
+
+.contact-area{
+	background-color: #232323;
+}
+
+.contact-area h5{
+	color: white;
+}
+
+.contact-area .form{
+	margin-top: 10px;
+	width: 300px
+}
+
+.contact-area .tombol{
+	width: 70px;
+	height: 30px;
+	margin-top: 10px;
+	background-color: #E96A3D;
+	border: 0;
+	color: white;
+}
+
+.link{
+	color: #235D37;
+}
+
+.link:hover{
+	color: #232323;
+	text-decoration: none;
+	background-color: #E96A3D;
+}
+
+@media (min-width: 992px) {
+
+	.contact-area{
+	width: 500px;
+	height: 300px;
+	}
+
+	.contact-area h5{
+	padding-top: 40px;
+	}
+
+	.my-porto .porto-box{
+	width: 360px
+	}
+
+	.my-porto .porto-img{
+	width: 360px;
+	}
+
+}
